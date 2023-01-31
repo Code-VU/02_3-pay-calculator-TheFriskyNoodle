@@ -3,6 +3,9 @@ def calculatePay():
     print("calculating pay")
     # This first line is provided for you
     hrs = input("Enter Hours:")
+    goat = input("Enter Pay:")
+    pay = int(hrs) * int(goat)
+    print(pay)
 
     # end assignment
 
