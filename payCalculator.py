@@ -2,12 +2,12 @@ def calculatePay():
     # Implement your solution in between the two comment blocks
     print("calculating pay")
     # This first line is provided for you
-    hrs = int(input("Enter Hours:"))
-    pay = int(input("Enter Pay:"))
-    check = (hrs * pay)
+    hrs = input("Enter Hours:")
+    pay = input("Enter Pay:")
+    check = (float(hrs) * float(pay))
     print(check)
 
-    # end assignment
+    # end assignment 
 
 
 ## If you want to test locally before you try to sync
