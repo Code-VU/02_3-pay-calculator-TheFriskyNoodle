@@ -2,10 +2,10 @@ def calculatePay():
     # Implement your solution in between the two comment blocks
     print("calculating pay")
     # This first line is provided for you
-    hrs = input("Enter Hours:")
-    goat = input("Enter Pay:")
-    pay = int(hrs) * int(goat)
-    print(pay)
+    hrs = int(input("Enter Hours:"))
+    pay = int(input("Enter Pay:"))
+    check = (hrs * pay)
+    print(check)
 
     # end assignment
 
